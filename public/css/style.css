@@ -192,9 +192,17 @@ nav {
 
 #header {
   height: 600px;
-  background-color: #D5EEED;
   padding: 5rem;
   overflow: hidden; }
+  #header .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+    #header .bg-img img {
+      height: 100%;
+      width: 100%; }
   #header .cont {
     position: absolute;
     top: 50%;
