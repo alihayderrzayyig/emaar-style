@@ -191,8 +191,9 @@ nav {
     font-weight: 800; }
 
 #header {
+  position: relative;
   height: 600px;
-  padding: 5rem;
+  background-color: red;
   overflow: hidden; }
   #header .bg-img {
     position: absolute;
@@ -1071,7 +1072,9 @@ nav {
       #allCases .container .row .card .body h4 {
         font-size: 1.4rem; }
       #allCases .container .row .card .card-footer .btn {
-        font-size: 1rem; } }
+        font-size: 1rem; }
+  #header {
+    height: 500px; } }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .stores {
@@ -1141,7 +1144,13 @@ nav {
       #allCases .container .row .card .body h4 {
         font-size: 1.4rem; }
       #allCases .container .row .card .card-footer .btn {
-        font-size: 1rem; } }
+        font-size: 1rem; }
+  #header {
+    height: 700px; }
+    #header .cont .text-header {
+      margin-bottom: 3rem; }
+      #header .cont .text-header h1 {
+        font-size: 2rem; } }
 
 @media screen and (max-width: 575px) {
   .stores {
@@ -1214,4 +1223,16 @@ nav {
       #allCases .container .row .card .body h4 {
         font-size: 1.4rem; }
       #allCases .container .row .card .card-footer .btn {
-        font-size: 1rem; } }
+        font-size: 1rem; }
+  #header {
+    height: 500px;
+    overflow: hidden; }
+    #header .cont .text-header h1 {
+      font-size: 1.4rem; }
+    #header .cont .links-header .container a h3 {
+      font-weight: 500;
+      font-size: 1.8rem; }
+    #header .cont .links-header .container a .floatItem-icon {
+      font-size: 1.8rem;
+      border: solid 2px;
+      padding: .5rem; } }
