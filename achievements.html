@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="public/css/all.css"> -->
+    <!-- <link rel="stylesheet" href="public/css/slick-theme.css"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="public/css/slick.css">
+    <link rel="stylesheet" href="public/css/slick-theme.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- <link rel="stylesheet" href="public/css/slick-theme.css"> -->
+
+    <style type="text/css">
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+  
+      * {
+        box-sizing: border-box;
+      }
+  
+      .slider {
+          width: 100%;
+          margin: 100px auto;
+          padding: 0 5rem;
+      }
+  
+      .slick-slide {
+        margin: 0px 20px;
+      }
+  
+      .slick-slide img {
+        width: 100%;
+      }
+  
+      .slick-prev:before,
+      .slick-next:before {
+        color: black;
+      }
+  
+  
+      .slick-slide {
+        transition: all ease-in-out .3s;
+        opacity: .2;
+      }
+      
+      .slick-active {
+        opacity: 1;
+      }
+  
+      .slick-current {
+        opacity: 1;
+      }
+
+
+      .bg-red{
+          background-color: rgba(255, 0, 0, 0.479) !important;
+      }
+
+      .bg-black{
+          background-color: rgba(0, 0, 0, 0.397) !important;
+      }
+      .slick-next {
+        right: 0;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      .slick-prev {
+          left: 0;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+      }
+      .slick-next,
+      .slick-prev {
+        background-color: rgba(61, 49, 49, 0.659);
+        height: 90px;
+        width: 60px;
+        
+      }
+      .slick-next:hover,
+      .slick-prev:hover {
+        background-color: rgba(28, 24, 24, 0.782);
+      }
+      .slick-next:focus,
+      .slick-prev:focus {
+        background-color: rgba(28, 24, 24, 0.782);
+      }
+      .slick-prev:before,
+      .slick-next:before
+      {
+          font-family: 'slick';
+          font-size: 40px;
+          line-height: 1;
+
+          opacity: .75;
+          color: rgb(255, 255, 255);
+
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+      }
+  </style>
+
+
+    <title>جديد فروعنا</title>
+  </head>
+  <body class="disable-select">
+
+      
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+      
+        <div class="nav-item dropdown">
+
+          <a class="navbar-brand " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="public/img/1.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+          </a>
+
+          <div class="dropdown-menu  text-right " aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">حول الموقع<span class="sr-only">(current)</span></a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">الانجازات</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">إضافة حالة</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">الحالات</a>
+            </li>
+          </ul>
+
+          <a class="navbar-brand" href="#">إعمار</a>
+          
+        </div>
+
+    </nav>
+
+
+    <section id="stores" class="stores">
+        <div class="container">
+            
+            <h1 class="text-center h1-header">جديد فروعنا</h1>
+
+            <div class="row justify-content-center mx-auto">
+                <div class="story">
+                  <figure class="story-shape">
+                    <img src="public/img/04.jpg" alt="" class="story-image">
+                  </figure>
+                  <div class="story-text">
+                    <h4 class="">مركز دجلة للأعمال الخيرية</h4>
+                    <p>هناك حقيقة مثبتة رئ عن الركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي تمحتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) </p>
+                  </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mx-auto">
+                <div class="story">
+                  <figure class="story-shape">
+                    <img src="public/img/01.jpg" alt="" class="story-image">
+                  </figure>
+                  <div class="story-text">
+                    <h4 class="">مركز دجلة للأعمال الخيرية</h4>
+                    <p>هناك حقيقة مثبتة رئ عن الركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي تمحتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) </p>
+                  </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mx-auto">
+                <div class="story">
+                  <figure class="story-shape">
+                    <img src="public/img/02.jpg" alt="" class="story-image">
+                  </figure>
+                  <div class="story-text">
+                    <h4 class="">مركز دجلة للأعمال الخيرية</h4>
+                    <p>هناك حقيقة مثبتة رئ عن الركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي تمحتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) </p>
+                  </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mx-auto">
+                <div class="story">
+                  <figure class="story-shape">
+                    <img src="public/img/03.jpg" alt="" class="story-image">
+                  </figure>
+                  <div class="story-text">
+                    <h4 class="">مركز دجلة للأعمال الخيرية</h4>
+                    <p>هناك حقيقة مثبتة رئ عن الركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي تمحتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </section> 
+
+    <section id="slider" class="">
+      <h1 class="text-center h1-header">مشاريع تم انجازها</h1>
+      <div class="regular slider">
+          <div>
+            <div class="card">
+              <img src="public/img/05.jpg" alt="" srcset="">
+              <div class="card-body">
+                <h4 class="text-center m-3">علي حيدر</h4>
+                <p>
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ماركيز على الشكل الخارجي للنص
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                <a href="" class="btn btn-info">المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <img src="public/img/05.jpg" alt="" srcset="">
+              <div class="card-body">
+                <h4 class="text-center m-3">علي حيدر</h4>
+                <p>
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ماركيز على الشكل الخارجي للنص
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                <a href="" class="btn btn-info">المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <img src="public/img/05.jpg" alt="" srcset="">
+              <div class="card-body">
+                <h4 class="text-center m-3">علي حيدر</h4>
+                <p>
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ماركيز على الشكل الخارجي للنص
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                <a href="" class="btn btn-info">المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <img src="public/img/05.jpg" alt="" srcset="">
+              <div class="card-body">
+                <h4 class="text-center m-3">علي حيدر</h4>
+                <p>
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ماركيز على الشكل الخارجي للنص
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                <a href="" class="btn btn-info">المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <img src="public/img/05.jpg" alt="" srcset="">
+              <div class="card-body">
+                <h4 class="text-center m-3">علي حيدر</h4>
+                <p>
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ماركيز على الشكل الخارجي للنص
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                <a href="" class="btn btn-info">المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <img src="public/img/05.jpg" alt="" srcset="">
+              <div class="card-body">
+                <h4 class="text-center m-3">علي حيدر</h4>
+                <p>
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ماركيز على الشكل الخارجي للنص
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                <a href="" class="btn btn-info">المزيد</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+    <footer class="footer text-center p-4">
+        <p>جميع الحقوق محفوظة &copy; CodeForIraq</p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="public/js/jquery-3.5.1.min.js"></script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    
+    <script src="public/js/slick.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    
+    	
+
+		var width = $(window).width();
+
+    if (width >= 1200) {
+    		$(".regular").slick({
+          dots: false,
+          infinite: true,
+          accessibility:true,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          focusOnSelect:false,
+          focusOnChange:false,
+          mobileFirst:false,
+          rtl:false,
+        });
+
+  		}else if(width >= 992 && width < 1200){
+        $(".regular").slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          focusOnSelect:false,
+          focusOnChange:false,
+          mobileFirst:false,
+          rtl:false,
+        });
+      }else if(width >= 768 && width < 992){
+        $(".regular").slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          focusOnSelect:false,
+          focusOnChange:false,
+          mobileFirst:false,
+          rtl:false,        
+        });
+      }else if(width < 768){
+        $(".regular").slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          focusOnSelect:false,
+          focusOnChange:false,
+          mobileFirst:false,
+          rtl:false,        
+        });
+      }
+
+
+    
+      // $(window).on('resize', function() {
+      //   width = $(this).width();
+      //   $(location).prop("href", location.href); 
+      // });
+      
+      //location.reload();
+      
+    </script>
+
+    
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
