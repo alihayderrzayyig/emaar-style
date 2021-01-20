@@ -262,6 +262,7 @@ nav {
           box-shadow: none; }
 
 #achievements {
+  background-color: #F7FBFB;
   padding: 5rem 1rem; }
   #achievements .container {
     max-width: 1100px; }
@@ -327,64 +328,63 @@ nav {
             margin-bottom: .5rem; }
 
 #howCanYouHelp {
-  padding: 5rem;
+  padding: 5rem 1rem;
   background-color: #D5EEED; }
-  #howCanYouHelp .container .text-center {
-    padding: 0rem 1rem; }
+  #howCanYouHelp .container {
+    max-width: 1100px; }
+    #howCanYouHelp .container .text-center {
+      padding: 0rem 1rem; }
   #howCanYouHelp .row {
     padding: 0;
     margin: 0; }
-    #howCanYouHelp .row .col-md-4 {
-      max-width: 28%;
-      padding: .5rem; }
-      #howCanYouHelp .row .col-md-4 .card {
-        color: #019897;
-        overflow: hidden;
-        border: none;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 10px #3e3e3e4f; }
-        #howCanYouHelp .row .col-md-4 .card .card-body {
-          padding: 0rem 1rem;
-          overflow: hidden; }
-          #howCanYouHelp .row .col-md-4 .card .card-body .floatItem-icon {
-            font-size: 2rem;
-            color: #019897;
-            margin: 1.5rem;
-            padding: 1rem;
-            border: solid 3px #027878;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            border-radius: 50%; }
-          #howCanYouHelp .row .col-md-4 .card .card-body h4 {
-            color: #0A3D3F;
-            font-weight: 600; }
-          #howCanYouHelp .row .col-md-4 .card .card-body p {
-            direction: rtl;
-            text-align: right;
-            text-align: justify;
-            color: #646363;
-            font-size: 1.1rem;
-            line-height: 1.5;
-            font-weight: 400;
-            margin-top: 1rem; }
-        #howCanYouHelp .row .col-md-4 .card .card-footer {
-          padding: 0; }
-          #howCanYouHelp .row .col-md-4 .card .card-footer .btn {
-            width: 100%;
-            font-weight: 600;
-            -webkit-border-radius: 0px;
-            -moz-border-radius: 0px;
-            -ms-border-radius: 0px;
-            border-radius: 0px; }
-          #howCanYouHelp .row .col-md-4 .card .card-footer .btn-info {
-            background-color: #027878;
-            border: none; }
-          #howCanYouHelp .row .col-md-4 .card .card-footer .btn-info:hover {
-            background-color: #019897; }
+    #howCanYouHelp .row .col-card .card {
+      color: #019897;
+      overflow: hidden;
+      border: none;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px;
+      box-shadow: 5px 5px 10px #3e3e3e4f; }
+      #howCanYouHelp .row .col-card .card .card-body {
+        padding: 0rem 1rem;
+        overflow: hidden; }
+        #howCanYouHelp .row .col-card .card .card-body .floatItem-icon {
+          font-size: 2rem;
+          color: #019897;
+          margin: 1.5rem;
+          padding: 1rem;
+          border: solid 3px #027878;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+        #howCanYouHelp .row .col-card .card .card-body h4 {
+          color: #0A3D3F;
+          font-weight: 600; }
+        #howCanYouHelp .row .col-card .card .card-body p {
+          direction: rtl;
+          text-align: right;
+          text-align: justify;
+          color: #646363;
+          font-size: 1.1rem;
+          line-height: 1.5;
+          font-weight: 400;
+          margin-top: 1rem; }
+      #howCanYouHelp .row .col-card .card .card-footer {
+        padding: 0; }
+        #howCanYouHelp .row .col-card .card .card-footer .btn {
+          width: 100%;
+          font-weight: 600;
+          -webkit-border-radius: 0px;
+          -moz-border-radius: 0px;
+          -ms-border-radius: 0px;
+          border-radius: 0px; }
+        #howCanYouHelp .row .col-card .card .card-footer .btn-info {
+          background-color: #027878;
+          border: none; }
+        #howCanYouHelp .row .col-card .card .card-footer .btn-info:hover {
+          background-color: #019897; }
 
 #joinUs {
   background-color: #F7FBFB;
@@ -406,17 +406,15 @@ nav {
     border-radius: 5px; }
     #joinUs .card .row {
       overflow: hidden; }
-      #joinUs .card .row .col-4 {
-        margin-bottom: 0rem; }
-        #joinUs .card .row .col-4 .form-group {
-          padding: 5px;
-          margin-bottom: .5rem; }
-        #joinUs .card .row .col-4 .form-control {
-          direction: rtl;
-          font-weight: 500; }
-        #joinUs .card .row .col-4 .custom-select {
-          font-weight: 500;
-          direction: rtl; }
+      #joinUs .card .row .form-group {
+        padding: 5px;
+        margin-bottom: .5rem; }
+      #joinUs .card .row .form-control {
+        direction: rtl;
+        font-weight: 500; }
+      #joinUs .card .row .custom-select {
+        font-weight: 500;
+        direction: rtl; }
       #joinUs .card .row .col-12 .form-control {
         direction: rtl;
         font-weight: 500; }
@@ -1081,7 +1079,27 @@ nav {
       #achievements .container .row .right .small .card p {
         font-size: 1.2rem; }
     #achievements .container .row .right .larg {
-      height: 40rem; } }
+      height: 40rem; }
+  #howCanYouHelp .container {
+    padding-left: 0px;
+    padding-right: 0px; }
+    #howCanYouHelp .container .text-center {
+      padding: 0rem 0rem; }
+      #howCanYouHelp .container .text-center .row .col-card .card .card-body h4 {
+        font-weight: 500;
+        font-size: 1.2rem; }
+      #howCanYouHelp .container .text-center .row .col-card .card .card-body p {
+        font-size: 1rem;
+        line-height: 1.2;
+        font-weight: 400;
+        margin-top: 1rem; }
+  #joinUs {
+    background-color: #F7FBFB;
+    padding: 5rem 1rem; }
+    #joinUs .container {
+      padding: 0; }
+  #responsibles .container .row .col-12:not(:last-child) {
+    margin-bottom: 2rem; } }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .stores {
@@ -1176,7 +1194,19 @@ nav {
         #achievements .container .row .right .larg .d-flex .small-2-img img:first-child {
           margin-left: -.25rem; }
         #achievements .container .row .right .larg .d-flex .small-2-img img:last-child {
-          margin-right: -.25rem; } }
+          margin-right: -.25rem; }
+  #howCanYouHelp .container {
+    padding-left: 0px;
+    padding-right: 0px; }
+    #howCanYouHelp .container .text-center .row .col-card:not(:last-child) {
+      margin-bottom: 2rem; }
+  #joinUs {
+    background-color: #F7FBFB;
+    padding: 5rem 1rem; }
+    #joinUs .container {
+      padding: 0; }
+  #responsibles .container .row .col-12:not(:last-child) {
+    margin-bottom: 2rem; } }
 
 @media screen and (max-width: 575px) {
   .stores {
@@ -1280,4 +1310,18 @@ nav {
         #achievements .container .row .right .larg .d-flex .small-2-img img:first-child {
           margin-left: -.25rem; }
         #achievements .container .row .right .larg .d-flex .small-2-img img:last-child {
-          margin-right: -.25rem; } }
+          margin-right: -.25rem; }
+  #howCanYouHelp h1, #howCanYouHelp .h1 {
+    font-size: 2rem; }
+  #howCanYouHelp .container {
+    padding-left: 0px;
+    padding-right: 0px; }
+    #howCanYouHelp .container .text-center .row .col-card:not(:last-child) {
+      margin-bottom: 2rem; }
+  #joinUs {
+    background-color: #F7FBFB;
+    padding: 5rem 1rem; }
+    #joinUs .container {
+      padding: 0; }
+  #responsibles .container .row .col-12:not(:last-child) {
+    margin-bottom: 2rem; } }
