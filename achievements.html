@@ -29,85 +29,6 @@
         box-sizing: border-box;
       }
   
-      .slider {
-          width: 100%;
-          margin: 100px auto;
-          padding: 0 5rem;
-      }
-  
-      .slick-slide {
-        margin: 0px 20px;
-      }
-  
-      .slick-slide img {
-        width: 100%;
-      }
-  
-      .slick-prev:before,
-      .slick-next:before {
-        color: black;
-      }
-  
-  
-      .slick-slide {
-        transition: all ease-in-out .3s;
-        opacity: .2;
-      }
-      
-      .slick-active {
-        opacity: 1;
-      }
-  
-      .slick-current {
-        opacity: 1;
-      }
-
-
-      .bg-red{
-          background-color: rgba(255, 0, 0, 0.479) !important;
-      }
-
-      .bg-black{
-          background-color: rgba(0, 0, 0, 0.397) !important;
-      }
-      .slick-next {
-        right: 0;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-      }
-      .slick-prev {
-          left: 0;
-          border-top-right-radius: 5px;
-          border-bottom-right-radius: 5px;
-      }
-      .slick-next,
-      .slick-prev {
-        background-color: rgba(61, 49, 49, 0.659);
-        height: 90px;
-        width: 60px;
-        
-      }
-      .slick-next:hover,
-      .slick-prev:hover {
-        background-color: rgba(28, 24, 24, 0.782);
-      }
-      .slick-next:focus,
-      .slick-prev:focus {
-        background-color: rgba(28, 24, 24, 0.782);
-      }
-      .slick-prev:before,
-      .slick-next:before
-      {
-          font-family: 'slick';
-          font-size: 40px;
-          line-height: 1;
-
-          opacity: .75;
-          color: rgb(255, 255, 255);
-
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-      }
   </style>
 
 
@@ -387,10 +308,10 @@
 
 
     
-      // $(window).on('resize', function() {
-      //   width = $(this).width();
-      //   $(location).prop("href", location.href); 
-      // });
+      $(window).on('resize', function() {
+        width = $(this).width();
+        $(location).prop("href", location.href); 
+      });
       
       //location.reload();
       
