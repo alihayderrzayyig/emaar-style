@@ -217,7 +217,6 @@ nav {
 #header {
   position: relative;
   height: 600px;
-  background-color: red;
   overflow: hidden; }
   #header .bg-img {
     position: absolute;
@@ -521,14 +520,6 @@ nav {
     margin: 0;
     font-weight: 500;
     direction: rtl; }
-
-.modal .btn-facebook {
-  color: white;
-  background-color: #10259c; }
-
-.modal .btn-google {
-  color: white;
-  background-color: #3282eb; }
 
 .modal .modal-dialog .modal-content .modal-body {
   padding: 2.5rem; }

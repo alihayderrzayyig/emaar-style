@@ -367,7 +367,7 @@ nav {
 #header {
     position: relative;
     height: 600px;
-    background-color: red;
+    // background-color: red;
     // padding: 5rem;
     overflow: hidden;
     .bg-img{
@@ -792,14 +792,6 @@ nav {
 }
 
 .modal{
-    .btn-facebook{
-        color: white;
-        background-color: #10259c;
-    }
-    .btn-google{
-        color: white;
-        background-color: #3282eb;
-    }
     .modal-dialog{
         // max-width: 400px;
         .modal-content{
