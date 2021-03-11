@@ -214,6 +214,13 @@ nav {
     font-size: 1.5rem;
     font-weight: 800; }
 
+#password-request {
+  height: 95vh; }
+  #password-request .container {
+    padding-top: 5rem; }
+    #password-request .container .card .card-body .form-group {
+      direction: rtl; }
+
 #header {
   position: relative;
   height: 600px;
@@ -270,6 +277,8 @@ nav {
             font-size: 2.5rem;
             border: solid 3px;
             padding: 1rem;
+            width: 73px;
+            height: 73px;
             -webkit-border-radius: 50%;
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
@@ -716,6 +725,20 @@ nav {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   background-color: #F7FBFB; }
+  #slider .h1-header {
+    margin-bottom: 2rem; }
+  #slider .all-projects {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1rem;
+    padding-right: 2rem; }
+    #slider .all-projects .btn {
+      color: #4d4d4d;
+      font-size: 1rem;
+      font-weight: 600; }
+    #slider .all-projects .btn.focus, #slider .all-projects .btn:focus {
+      outline: 0;
+      box-shadow: none; }
   #slider .card {
     background-color: white;
     overflow: hidden;
@@ -761,7 +784,7 @@ nav {
         background-color: #019897; }
   #slider .slider {
     width: 100%;
-    margin: 100px auto;
+    margin: 30px auto;
     padding: 0 5rem; }
   #slider .slick-slide {
     margin: 0px 20px; }
@@ -1070,6 +1093,64 @@ nav {
       direction: ltr;
       text-align: left;
       text-align: justify; }
+
+#about {
+  height: 36rem; }
+  #about .container-fluid {
+    display: flex; }
+    #about .container-fluid .img {
+      width: 50%; }
+      #about .container-fluid .img img {
+        max-height: 36rem; }
+    #about .container-fluid .text {
+      direction: rtl;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%; }
+      #about .container-fluid .text h4 {
+        width: 100%; }
+
+#about-designer {
+  background-color: #D5EEED;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; }
+  #about-designer .container .row p {
+    direction: rtl; }
+  #about-designer .container .row .media img {
+    width: 100px !important;
+    height: 100px !important; }
+  #about-designer .container .row .info {
+    border-right: 1px solid rgba(121, 121, 121, 0.548); }
+    #about-designer .container .row .info h4 {
+      direction: rtl;
+      margin-right: 2rem; }
+    #about-designer .container .row .info ul {
+      display: inline-block;
+      padding-right: 3rem; }
+
+#prjects-header {
+  position: relative;
+  height: 20rem;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100; }
+  #prjects-header h1 {
+    z-index: 100; }
+
+#prjects-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #02363d9c;
+  z-index: -50; }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .stores .row .story {
@@ -1605,3 +1686,129 @@ nav {
       #showCase .container .card .des {
         padding: 1rem;
         width: 100%; } }
+
+@media screen and (min-width: 768px) and (max-width: 805px) {
+  nav {
+    padding-left: .5rem !important;
+    padding-right: .5rem !important; }
+  nav .navbar-nav .nav-link {
+    font-size: 1rem; }
+  .navbar-brand {
+    margin-right: 1rem;
+    padding: 0;
+    font-size: 1.5rem !important; }
+  .navbar-nav .nav-link {
+    display: inline-block; } }
+
+@media screen and (max-width: 768px) {
+  nav {
+    margin: 0;
+    padding: 0 !important; }
+    nav .navbar-collapse {
+      text-align: center; }
+      nav .navbar-collapse .navbar-nav {
+        padding: 0;
+        text-align: center;
+        font-size: 1.5rem; }
+    nav .navbar-toggler {
+      margin: 5px; }
+    nav .navbar-brand {
+      font-size: 2rem; }
+  nav .navbar-nav .nav-link {
+    padding: .3rem; }
+  #about {
+    height: 90vh; }
+    #about .container-fluid {
+      display: flex;
+      flex-direction: column-reverse;
+      position: relative;
+      height: 100%;
+      padding: 0; }
+      #about .container-fluid .img {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -100; }
+        #about .container-fluid .img img {
+          width: 100%;
+          opacity: 0.2; }
+      #about .container-fluid .img::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #000000b7;
+        z-index: 9; }
+      #about .container-fluid .text {
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        font-size: 1.3rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        z-index: 1; } }
+
+@media screen and (max-width: 805px) {
+  nav .dropdown-menu {
+    left: 4px; }
+  .dropup,
+  .dropright,
+  .dropdown,
+  .dropleft {
+    margin-left: 14px; } }
+
+@media screen and (max-width: 991px) {
+  #about-designer {
+    background-color: #D5EEED;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important; }
+    #about-designer .container .row p {
+      direction: rtl; }
+    #about-designer .container .row .media {
+      border-bottom: 1px solid #5c5c5c;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-bottom: 3rem; }
+      #about-designer .container .row .media h4 {
+        text-align: center; }
+      #about-designer .container .row .media img {
+        width: 200px !important;
+        height: 200px !important;
+        margin-bottom: 3rem; }
+    #about-designer .container .row .info {
+      border-right: none; }
+      #about-designer .container .row .info h4 {
+        direction: rtl;
+        margin-right: 2rem; }
+      #about-designer .container .row .info ul {
+        display: inline-block;
+        padding-right: 3rem; } }
+
+@media screen and (max-width: 1024px) {
+  #about {
+    height: 90vh; } }
+
+@media screen and (max-width: 900px) {
+  #about {
+    height: 80vh; } }
+
+@media screen and (max-width: 850px) {
+  #about {
+    height: 100%; } }
+
+@media screen and (max-width: 566px) {
+  #about {
+    height: 100%; }
+    #about .container-fluid .img {
+      padding-top: 5rem !important;
+      padding-bottom: 5rem !important; }
+    #about .container-fluid .text {
+      height: 100%; } }
